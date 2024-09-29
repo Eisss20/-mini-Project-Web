@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Chart Comparison with Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="box-border bg-gradient-to-b from-[#FFEDE7] to-white h-[1200px]">
+
+    <!------------------------------------- Nav Area --------------------------------------->
+    <nav class="Top-bar xl:flex xl:justify-center ">
+        <div class="flex">
+            <div class="box-for-planet flex pl-[24px] pt-[50px] xl:flex xl:w-full xl:justify-center">
+                <img class="w-10 h-auto xl:w-20" src="./Vector-1/Planet-logo-top.svg" alt="Orange Planet Logo" />
+                <p class="Logo-top-name text-[21.26pxp] xl:text-5xl font-bold "> Hrr<span
+                        class="text-[#FF7342]">d</span></p>
+                <div class="pl-[209px] pt-[10px] xl:hidden">
+                    <img class="xl:hidden" src="./vector/Buttom-top.svg" alt="Manu top bar"
+                        className="w-[24px] h-[24px]" />
+                </div>
+
+
+                <div class="hidden sm:flex justify-around gap-20 pl-10">
+                    <ul class="flex justify-around mt-5 gap-20 pl-10">
+                        <li><a href="#" class="hover:text-orange-500 hover:underline  ">Home</a></li>
+                        <li><a href="#" class="hover:text-orange-500 hover:underline  ">Feature</a></li>
+                        <li><a href="#" class="hover:text-orange-500 hover:underline  ">Pricing</a></li>
+                        <li><a href="#" class="hover:text-orange-500 hover:underline  ">Testimonial</a></li>
+                    </ul>
+
+                    <div class="flex justify-center gap-5 pl-20">
+                        <div
+                            class="flex justify-center bg-[#FFE5A3] rounded w-[151px] h-[64px] hover:bg-orange-400 active:bg-orange-200 focus:ring focus:ring-orange-500 ">
+                            <button class="text-base font-medium"> Register </button>
+                        </div>
+
+                        <div
+                            class="flex justify-center bg-[#FF7342] w-[139px] h-[64px] hover:bg-orange-400 active:bg-orange-200 focus:ring focus:ring-orange-500   ">
+                            <button class="text-base font-medium text-white"> sign in </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </nav>
+
+    <!------------------------------------- Fist box 1 --------------------------------------->
+    <header class="Container1section xl:flex  w-[375px] h-[790px] xl:mx-auto xl:w-[1920px]">
+        <section class="Body-Box infor-header bg-[#F5F9FF] my-[57.84px] ml-[26.45px] w-[326.52px] h-[249.82px] 
+                rounded-md border-solid border-[#FFFFFF] border-l-[18.21px] border-t-[18.21px] order-2 
+                xl:ml-[159px] xl:w-[871.58px] xl:h-[590.32px] relative">
+
+            <!------------------------------------- post view Area --------------------------------------->
+            <p class="ml-[47.02px] my-[13.01px] text-[7.81px] font-bold xl:text-2xl"> Post <br> overview</p>
+            <section class=" Small-box-Area flex justify-center gap-[8.13px]">
+
+
+                <!------------------------------------- Small box 1  --------------------------------------->
+                <div
+                    class="w-[65.04px] xl:w-[173.62px] h-[31.22px] xl:h-[83.34px] bg-[#FFFFFF] rounded-md flex justify-center items-center gap-2">
+                    <div class="w-[15.61px] xl:w-[41.67px] h-[15.61px] xl:h-[41.67px] bg-[#FAAD13] rounded-full"> </div>
+
+                    <div class="flex-col">
+                        <div
+                            class="detail-total-like w-[18.21px] xl:w-[48.61px] xl:h-[5.21px] h-[1.95px] bg-[#B3BAC5]  ">
+                        </div>
+                        <div
+                            class="detail-total-like w-[31.12px] xl:w-[83.34px] xl:h-[5.21px] h-[1.95px] my-[4.5px] bg-[#5A7184] opacity-10">
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------- Small box 1  --------------------------------------->
+                <div
+                    class="w-[65.04px] h-[31.22px] xl:w-[173.62px]  xl:h-[83.34px] bg-[#FFFFFF] rounded-md flex justify-center items-center gap-2 ">
+                    <div
+                        class="w-[15.61px] xl:w-[41.67px] xl:h-[41.67px]  h-[15.61px] mt-[2.7px] mr-[0.8px] bg-[#FFD167] rounded-full">
+                    </div>
+
+                    <div class="flex-col">
+                        <div
+                            class="detail-total-like w-[18.21px] xl:w-[48.61px] xl:h-[5.21px] h-[1.95px]    bg-[#B3BAC5]">
+                        </div>
+                        <div
+                            class="detail-total-like w-[31.12px] xl:w-[83.34px]  xl:h-[5.21px] h-[1.95px] my-[4.5px] bg-[#5A7184] opacity-10">
+                        </div>
+                    </div>
+                </div>
+
+                <!------------------------------------- Small box 2  --------------------------------------->
+                <div
+                    class="w-[65.04px] h-[31.22px] xl:w-[173.62px] xl:h-[83.34px] bg-[#FFFFFF] rounded-md flex justify-center items-center gap-2">
+                    <div
+                        class="w-[15.61px] h-[15.61px] xl:w-[41.67px] xl:h-[41.67px]   mt-[2.7px] mr-[0.8px]  bg-[#37E0F5] rounded-full">
+                    </div>
+
+                    <div class="flex-col">
+                        <div
+                            class="detail-total-like w-[18.21px] h-[1.95px] xl:w-[48.61px] xl:h-[5.21px]  bg-[#B3BAC5]">
+                        </div>
+                        <div
+                            class="detail-total-like w-[31.12px] h-[1.95px] xl:w-[83.34px]  xl:h-[5.21px] my-[4.5px] bg-[#5A7184] opacity-10">
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------- Small box 3  --------------------------------------->
+
+                <div
+                    class="w-[65.04px] h-[31.22px] xl:w-[173.62px] xl:h-[83.34px] border-[0.33px] border-[#B3BAC5] border-dashed rounded">
+                </div>
+
+                <div
+                    class="w-[76.93px] h-[36.93px] xl:w-[173.62px] xl:h-[83.34px] bg-white flex items-center gap-2  rounded-md absolute top-[38px] right-[1px] xl:top-[60px] md:right-[180px] lg:right-[200px] xl:right-[40px]">
+                    <div
+                        class="w-[15.61px] h-[15.61px] xl:w-[49.29px] xl:h-[49.29px] ml-[10px]  bg-blue-100 rounded-full flex justify-center items-center ">
+                        <img class="xl:w-1/2" src="./vector/Like-icon.svg" alt="bottom-like" />
+                    </div>
+
+                    <div class="detail-total-like">
+                        <p class="text-[6.46px] xl:text-base font-bold"> 398K </p>
+                        <p class="text-[4.84px] xl:text-sm font-medium text-[#5A7184]"> Total likes</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!------------------------------------- Graph area  --------------------------------------->
+
+            <section class="graph-post-review flex gap-2 mt-1">
+                <div
+                    class="w-[211.39px] h-[84.56px] xl:w-[564.27px] bg-white xl:h-[225.71px] xl:ml-20 ml-[12.36px] xl:my-5 my-[8.13px] flex border-solid rounded-md shadow-md ">
+
+                    <div
+                        class=" w-[140.7px] h-[54.64px] xl:w-[399.6px] xl:h-[146.71px] xl:mt-[40px]  mt-[18.5px] ml-[13.17px] flex justify-evenly items-end  ">
+                        <div class="flex gap-[3.2px] xl:gap-2">
+                            <div class="w-[2.6px] xl:w-[6.94px] xl:h-[65.98px] h-[26.72px] rounded-sm  bg-[#FF7342]">
+                            </div>
+                            <div
+                                class="w-[2.6px] xl:w-[6.94px] xl:h-[60.3px] h-[21.72px] rounded-sm mt-[5px] bg-[#FFD167]">
+                            </div>
+                        </div>
+
+                        <div class="flex gap-[3.2px] xl:gap-2">
+                            <div class="w-[2.6px] xl:w-[6.94px] xl:h-[109.38px]  h-[40.98px] rounded-sm bg-[#FF7342]">
+                            </div>
+                            <div
+                                class="w-[2.6px] xl:w-[6.94px] xl:h-[103.7px] h-[35.73px] rounded-sm mt-[5px] bg-[#FFD167]">
+                            </div>
+                        </div>
+
+                        <div class="flex gap-[3.2px] xl:gap-2">
+                            <div class="w-[2.6px] xl:w-[6.94px] xl:h-[92.02px]  h-[36.47px] rounded-sm bg-[#FF7342]">
+                            </div>
+                            <div
+                                class="w-[2.6px] xl:w-[6.94px] xl:h-[85.34px] h-[31.22px] rounded-sm mt-[5px]  bg-[#FFD167]">
+                            </div>
+                        </div>
+
+                        <div class="flex gap-[3.2px] xl:gap-2">
+                            <div class="w-[2.6px] xl:w-[6.94px] xl:h-[100.7px] h-[33.22px]  rounded-sm bg-[#FF7342]">
+                            </div>
+                            <div
+                                class="w-[2.6px] xl:w-[6.94px] xl:h-[95.02px] h-[27.97px]  rounded-sm mt-[5px] bg-[#FFD167]">
+                            </div>
+                        </div>
+
+                        <div class="flex gap-[3.2px] xl:gap-2 ">
+                            <div class="w-[2.6px] xl:w-[6.94px] xl:h-[126.74px] h-[39.73px]  rounded-sm bg-[#FF7342]">
+                            </div>
+                            <div
+                                class="w-[2.6px] xl:w-[6.94px] xl:h-[122.06px] h-[34.47px]  rounded-sm mt-[5px]  bg-[#FFD167]">
+                            </div>
+                        </div>
+
+                        <div class="flex gap-[3.2px] xl:gap-2">
+                            <div class="w-[2.6px] xl:w-[6.94px] xl:h-[49.48px] h-[49.48px] rounded-sm  bg-[#FF7342]">
+                            </div>
+                            <div
+                                class="w-[2.6px] xl:w-[6.94px] xl:h-[44.23px] h-[44.23px]  rounded-sm mt-[5px]  bg-[#FFD167]">
+                            </div>
+                        </div>
+
+                        <div class="flex gap-[3.2px] xl:gap-2">
+                            <div class="w-[2.6px] xl:w-[6.94px] xl:h-[135.43px] h-[52.73px]  rounded-sm bg-[#FF7342]">
+                            </div>
+                            <div
+                                class="w-[2.6px] xl:w-[6.94px] xl:h-[130.74px] h-[47.48px]  rounded-sm mt-[5px]  bg-[#FFD167]">
+                            </div>
+                        </div>
+
+                    </div>
+                    <!------------------------------------- QTY grahp --------------------------------------->
+
+                    <div class="w-14 detail-qty-graph flex-col">
+                        <div
+                            class="w-[15.61px] p-[1px] xl:w-[41.67px] xl:h-[5.21px] rounded-full bg-[#B3BAC5] ml-8 mt-1 xl:ml-20 xl:mt-5 ">
+                        </div>
+                        <div class=" xl:w-[59px] xl:ml-10">
+                            <div
+                                class="w-[10px] h-[2px] xl:w-[28.31px] xl:h-[5.21px] rounded-full bg-[#FAAD13] mt-6 xl:mt-10 ">
+                            </div>
+                            <p class="text-[7.81px] xl:text-2xl font-bold xl:mt-2 "> 25,3K</p>
+                        </div>
+
+                        <div class=" xl:w-[59px] xl:ml-10 xl:mt-5">
+                            <div class="w-[10px] xl:w-[28.31px] xl:h-[5.21px] h-[2px] rounded-full bg-[#36B37E] mt-2 ">
+                            </div>
+                            <p class="text-[7.81px] xl:text-2xl font-bold xl:mt-2 "> +120 </p>
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <!------------------------------------- Pie Area --------------------------------------->
+                <figure
+                    class=" Cakepie-zone w-[65.04px] xl:w-[173.62px] xl:h-[225.71px] h-[84.56px] shadow-md relative ">
+
+                    <div class="mt-3 xl:w-[173.62px] xl:w-[225.71px] flex">
+
+                        <img class="xl:w-auto xl:h-auto" src="vector/pie-icon.svg" </div>
+                </figure>
+
+
+            </section>
+
+            <!------------------------------------- order 2 --------------------------------------->
+            <!------------------------------------- 3 box bottom area--------------------------------------->
+            <div class="h-[67px] w-[326.52px] xl:w-auto xl:h-[130.22px] ml-4 flex gap-1 xl:gap-3">
+                <div class="w-[123.58px] xl:w-[329.88px] xl:h-[130.22px] h-[48.78px] bg-white rounded">
+                    <div class="flex justify-evenly gap-12 xl:gap-20 mt-1 ">
+                        <div
+                            class="w-[15.61px]  xl:w-[41.67px] xl:h-[5.21px] h-[1.95px] rounded-full bg-[#B3BAC5] mt-2 ">
+                        </div>
+                        <div
+                            class="w-[15.61px] xl:w-[32.99px] xl:h-[5.21px] h-[1.95px] rounded-full bg-[#5A7184] mt-2 opacity-10 ">
+                        </div>
+                    </div>
+
+                    <div class="w-auto h-auto text-center mt-1 ml-2">
+                        <img class="w-[222.46px] h-auto xl:w-[296.89px] inline-block" src="vector/Shape.svg"
+                            alt="Shape" />
+                    </div>
+                </div>
+
+                <div class="h-[48.78px] xl:w-[231.22px] xl:h-[141.56px] w-[86.62px] bg-red-100 rounded">
+                    <div class="w-[100.04px] h-[31.22px] xl:w-[231.22px] xl:h-20 bg-white rounded-md flex  ">
+                        <div
+                            class="w-[12.02px] h-[12.02px] xl:w-[32.09px] xl:h-[32.09px] ml-2 mt-3   bg-[#37E0F5] rounded-full">
+                        </div>
+                        <div class=" ml-2 mt-3 flex-col justify-evenly rounded">
+                            <div
+                                class="detail-total-like w-[18.21px] h-[1.95px] xl:w-[73.61px]  xl:h-[5.66px] bg-[#B3BAC5]  rounded">
+                            </div>
+                            <div
+                                class="detail-total-like w-[9.9px] h-[1.95px] xl:w-[26.43px]  xl:h-[5.66px] xl:ml-[110px] ml-11 bg-[#5A7184] opacity-10   rounded">
+                            </div>
+                            <div
+                                class="detail-total-like w-[31.12px] h-[1.95px] xl:w-[45.3px]  xl:h-[5.66px]   my-[4.5px] bg-[#5A7184] opacity-10 rounded">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="xl:w-[231.22px] xl:h-20 bg-white rounded-md flex ">
+                        <div
+                            class="w-[12.02px] h-[12.02px]  xl:w-[32.09px] xl:h-[32.09px]  ml-2    bg-[#37E0F5] rounded-full">
+                        </div>
+                        <div class=" ml-2  flex-col justify-evenly rounded">
+                            <div
+                                class="detail-total-like w-[18.21px] h-[1.95px] xl:w-[73.61px]  xl:h-[5.66px]  bg-[#B3BAC5] rounded">
+                            </div>
+                            <div
+                                class="detail-total-like w-[9.9px] h-[1.95px] xl:w-[26.43px]  xl:h-[5.66px] xl:ml-[110px]  ml-11 bg-[#5A7184] opacity-10 rounded">
+                            </div>
+                            <div
+                                class="detail-total-like w-[31.12px] h-[1.95px] xl:w-[45.3px]  xl:h-[5.66px]  my-[4.5px] bg-[#5A7184] opacity-10 rounded">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-[65.04px] xl:w-[173.62px] xl:h-[130.22px] h-[48.78px]   bg-white rounded-md flex ">
+                    <div class=" ml-1 mt-2 xl:ml-5 xl:mt-6 flex-col justify-evenly rounded">
+                        <div
+                            class="detail-total-like w-[18.21px] xl:w-[41.67px] xl:h-[5.21px] h-[1.95px]  bg-[#B3BAC5] rounded">
+                        </div>
+                        <div
+                            class="detail-total-like w-[31.12px] h-[1.95px] xl:w-[67.71px] xl:h-[5.21px]  my-[4.5px] bg-[#5A7184] opacity-10 rounded">
+                        </div>
+                        <div class="w-auto h-auto mt-1 ml-2 xl:mt-5 xl:mr-5">
+                            <img class="xl:w-[140.16px] xl:h-[38.75px]" src="vector/Line.svg" />
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+        <!-- post type  -->
+        <div
+            class="Post-type w-[73.56px] text-center rounded drop-shadow-lg bg-[#F5F9FF] relative left-[10px]  bottom-[330px] z-20 sm:absolute sm:ml-12 xl:left-[600px] xl:top-[1px] xl:hidden">
+            <!-- Post Type Text -->
+            <div class="pr-4 pl-2 pt-2">
+                <p class="text-[6.67px] font-bold xl:text-base">Post type</p>
+            </div>
+            <!-- Circle post type -->
+            <div class="flex bg-gray-100 h-[80px] flex-col xl:w-[200px] xl:h-[250px] relative">
+                <svg class="w-[38.45px] h-[82.95px] xl:w-[150px] xl:h-[150px] ml-5 mt-2">
+                    <circle cx="18" cy="18" r="15.9155" class="fill-none stroke-[#FF7342] stroke-[2]"
+                        stroke-dasharray="20,26" stroke-linecap="round" transform="rotate(400 18 18)" />
+                    <circle cx="18" cy="18" r="15.9155" class="fill-none stroke-[#FFD167] stroke-[2]"
+                        stroke-dasharray="40,35" stroke-linecap="round" transform="rotate(-145 18 18)" />
+
+                    <div
+                        class="inner-circle w-[16.05px] h-[16.05px] rounded-full flex justify-center items-center absolute left-[30px] top-[18px]">
+                        <img src="./vector/Icon.svg" alt="HR logo" class="w-[6.13px] h-[6.97px]" />
+                    </div>
+
+                    <text class="text-[5px] flex justify-center mb-3 gap-2 xl:text-[10px]">
+                        <div class="w-[20px] h-[6.9px] flex justify-center">
+                            <div class="w-[2px] h-[2px] mt-[2.7px] mr-[0.8px] bg-[#00B8D9] rounded-full"> </div>
+                            <p>Images</p>
+                        </div>
+
+                        <div class="w-[20px] h-[6.9px] flex justify-center">
+                            <div class="w-[2px] h-[2px] mt-[2.7px] mr-[0.8px] bg-[#1565D8] rounded-full"> </div>
+                            <p>Video</p>
+                        </div>
+                    </text>
+                </svg>
+            </div>
+        </div>
+
+        <!-------------------------------- order 1  make platform area                --------------------------- -->
+
+        <section class="order-1 xl:pl-[100px] xl:pt-[168px] ">
+            <article class=" m-5 flex-row">
+                <p class="text-3xl xl:text-6xl text-[#3B3B3B] font-bold"> Best Platform </p>
+                <p class="pt-1 text-3xl xl:text-6xl text-[#3B3B3B] font-bold"> for Monitor </p>
+                <p class="pt-1 text-3xl xl:text-6xl text-[#3B3B3B] font-bold"> Work Flow </p>
+            </article>
+            <!-------------------------------- logo area               --------------------------- -->
+            <section>
+                <button class="mt-1  ml-5 text-xl p-5 xl:px-[45px] xl:text-base xl:mt-10 rounded bg-[#FF7342] text-white font-medium 
+                    hover:bg-orange-400 active:bg-orange-200 focus:ring focus:ring-orange-500   ">
+                    Get 15 Day Trial </button>
+            </section>
+            <figure class="flex flex-wrap  gap-12 -my-1 mt-10 xl:mt-20 ml-5 xl:flex-nowrap xl:w-full  w-[300px]">
+                <img class="w-30 h-15 " src="./vector/AE logo.svg" alt="logo-AE" />
+                <img class="w-30 h-15 ml-10" src="./vector/DS logo.svg" alt="logo-AE" />
+                <img class="w-30 h-15 " src="./vector/HR logo.svg" alt="logo-AE" />
+                <img class="w-30 h-15 ml-10" src="./vector/BE logo.svg" alt="logo-AE" />
+            </figure>
+        </section>
+    </header>
+
+    <!-------------------------------- Main : Feature We              --------------------------- -->
+    <main class="bg-white">
+        <main class="h-[1200px] xl:h-[auto] w-[375px] xl:w-auto xl:ml-20 ">
+            <article class="mt-40 xl:mt-20 ">
+                <p class="text-center font-bold text-3xl "> <span
+                        class="bg-[#FF7342] bg-opacity-20 border-solid border-2 border-orange-500">Feature</sp>d We </p>
+                <p class="text-center font-bold text-3xl"> Provide for You</p>
+            </article>
+            <figure class=" pl-3 pt-5 xl:flex xl:flex-wrap  xl:w-auto xl:justify-center gap-2   w-[380px] ">
+
+                <div class=" xl:gap-2 xl:mt-20 xl:flex xl:justify-center ">
+
+
+                    <!-- 1 Dashboard box -->
+                    <aside
+                        class="flex items-center w-[340px] h-[206px]  xl:w-[453.33px] xl:h-[178px]  rounded-lg shadow-2xl">
+                        <figure class=" flex justify-center items-center">
+                            <img class="w-[80px] ml-5 mb-10" src="vector/Dashbord-logo.svg" alt="Dashboard" />
+                        </figure>
+                        <article class="flex-row  w-[191px] ml-2 pl-4">
+                            <p class="font-bold text-2xl"> Dashboard </p>
+                            <p class="pt-1"> Assertively parallel task synergistic deliverables after high-quality. </p>
+                        </article>
+                    </aside>
+
+
+                    <!-- 2 Statis box -->
+                    <aside
+                        class="flex items-center w-[340px] h-[206px]  xl:w-[453.33px] xl:h-[178px] rounded-lg shadow-2xl">
+                        <figure class=" flex justify-center items-center">
+                            <img class="w-[80px] ml-5 mb-10" src="vector/Statistics-logo.svg" alt="Statistics" />
+                        </figure>
+                        <article class="flex-row  w-[191px] ml-2 pl-4">
+                            <p class="font-bold text-2xl"> Statistics </p>
+                            <p class="pt-1"> Assertively parallel task synergistic deliverables after high-quality. </p>
+                        </article>
+                    </aside>
+
+
+                    <!-- 3 Eassy Access -->
+                    <aside
+                        class="flex items-center w-[340px] h-[206px]  xl:w-[453.33px] xl:h-[178px] rounded-lg shadow-2xl">
+                        <figure class=" flex justify-center items-center">
+                            <img class="w-[80px] ml-5 mb-10" src="vector/Easy Access-logo.svg" alt="Dashboard" />
+                        </figure>
+                        <article class="flex-row  w-[191px] ml-2 pl-4">
+                            <p class="font-bold text-2xl"> Easy Access </p>
+                            <p class="pt-1"> Assertively parallel task synergistic deliverables after high-quality. </p>
+                        </article>
+                    </aside>
+
+                </div>
+
+                <div class=" pt-3 xl:gap-2 xl:mt-20 xl:flex xl:justify-center">
+
+                    <!-- 4 Eassy Access -->
+                    <aside
+                        class="flex items-center w-[340px] h-[206px]  xl:w-[453.33px] xl:h-[178px] rounded-lg shadow-2xl">
+                        <figure class=" flex justify-center items-center">
+                            <img class="w-[80px] ml-5 mb-10" src="vector/Collobration-logo.svg" alt="Dashboard" />
+                        </figure>
+                        <article class="flex-row  w-[191px] ml-2 pl-4">
+                            <p class="font-bold text-2xl"> Collobration </p>
+                            <p class="pt-1"> Assertively parallel task synergistic deliverables after high-quality. </p>
+                        </article>
+                    </aside>
+
+                    <!-- 5 Total Control -->
+                    <aside
+                        class="flex items-center w-[340px] h-[206px]  xl:w-[453.33px] xl:h-[178px] rounded-lg shadow-2xl">
+                        <figure class=" flex justify-center items-center">
+                            <img class="w-[80px] ml-5 mb-10" src="vector/Total control-logo.svg" alt="Dashboard" />
+                        </figure>
+                        <article class="flex-row  w-[191px] ml-2 pl-4">
+                            <p class="font-bold text-2xl"> Total Control </p>
+                            <p class="pt-1"> Assertively parallel task synergistic deliverables after high-quality. </p>
+                        </article>
+                    </aside>
+
+                </div>
+
+            </figure>
+        </main>
+
+        <!----------------------------------  Section 3     --------------------------- -->
+        <section
+            class="h-[953px] w-[377px]  mt-5 xl:gap-10  xl:mt-[150px] xl:ml-[200px] xl:pl-[50px] xl:w-auto xl:h-auto p-1 xl:justify-center xl:flex  relative">
+
+            <figure class="w-[351px] h-[360.87px]  xl:[785.02px] xl:[807.09px] ml-2= mt-2 flex ">
+
+                <div
+                    class="bg-[#FFD167] w-[123.98px] h-[122.14px] xl:w-100 xl:h-100 rounded-3xl rotate-[55deg] left-5 xl:left-[170px]  xl:top-[-30px] absolute z-0">
+                </div>
+
+                <div
+                    class=" w-[141.67px] h-[93.08px]  xl:w-100 xl:h-100 bg-white z-20 ml-[90px] shadow rounded-lg absolute top-[2px] xl:top-[-25px] xl:left-[320px] left-[140px] ">
+
+                    <p class="text-[6.26px] xl:text- ml-3 mt-3"> Income This Month </p>
+
+                    <div class="flex ">
+                        <p class="text-[13.41px] font-bold ml-3"> $ 50.36 </p>
+
+                        <div class="flex w-[20px] h-[20px] ml-3 inline-block">
+                            <img class="w-auto h-auto mt-2" src="vector/Arrow - Left.svg" alt="increase" />
+                            <span class="text-[5.41px] mt-[10px]  mr-1 font-medium text-[#1ECAAB]"> 12% </span>
+                        </div>
+                    </div>
+                    <aside class="w-[105.9px] h-[15.65px] mt-5 ml-5">
+                        <img src="vector/Green grahp.svg" </aside>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <figure class="z-10">
+                        <img class="w-full max-w-[430px] h-auto xl:w-[50vw] xl:h-[50v] " src="vector/box-background.svg"
+                            alt="Box Background">
+                    </figure>
+                </div>
+
+
+                <div class=" ml-1  xl:w-100 xl:h-100 w-[171.35px] h-[96.21px] 
+                bg-white absolute rounded shadow top-[120px] xl:top-[105px]  z-10">
+
+                    <div class="flex ml-5 mt-5">
+                        <div
+                            class="bg-[#DCE5F3] rounded-full w-[48.11px] h-[48.11px]  flex justify-center items-center">
+                            <img class="w-[14.02px] h-auto  z-10 " src="vector/Like-md.svg">
+                        </div>
+                        <div class=" ml-5 mt-2 detail-total-like">
+                            <p class="text-base xl:text-base font-bold"> 398K </p>
+                            <p class="text-sm xl:text-sm font-medium text-[#5A7184]"> Total likes</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="bg-[#37E0F5] w-[221px] h-[222px] rounded-full absolute top-[150px] xl:top-[175px] xl:left-[320px] left-[120px]  z-0">
+                </div>
+
+
+
+                <div
+                    class="w-[172.14px] h-[124.39px] bg-white rounded absolute z-10 top-[250px] left-[180px] xl:top-[250px] xl:left-[380px] shadow-md flex flex-col p-4">
+                    <div class="w-[138.82px] h-[21.1px] flex justify-around">
+                        <div class="bg-[#C4C4C4] w-[21.1px] h-[21.1px] rounded-full"> </div>
+                        <div class="bg-[#C4C4C4] w-[21.1px] h-[21.1px] rounded-full"> </div>
+                        <div class="bg-[#C4C4C4] w-[21.1px] h-[21.1px] rounded-full"> </div>
+                        <div class="bg-[#C4C4C4] w-[21.1px] h-[21.1px] rounded-full"> </div>
+                        <div class="bg-[#C4C4C4] w-[21.1px] h-[21.1px] rounded-full"> </div>
+                    </div>
+                    <article class="w-[96.62px] h-auto  ml-6  text-center">
+                        <p class="text-[10px] mt-2 font-bold">Saturday, 8pm</p>
+                        <p class="text-[7.77px] mt-1">Time to active in meeting</p>
+                    </article>
+
+                    <footer class="flex justify-center  ml-2 mt-3 gap-2">
+                        <div class="rounded-md  flex justify-center bg-[#6A99FF]">
+                            <button class="w-[72.19px] h-[21.1px] font-medium  text-white text-[7.77px] "> Schedule Post
+                            </button>
+                        </div>
+
+                        <div class=" rounded-md  justify-center flex bg-[#6A99FF] bg-opacity-10  ">
+                            <button class="w-[66.64px] h-[21.1px] font-medium text-[#6A99FF] text-[7.77px]"> See Insight
+                            </button>
+                        </div>
+                    </footer>
+                </div>
+
+            </figure>
+
+            <aside class="mt-10 xl:mt-1 ml-5 xl:ml-20 bg-white">
+
+                <p class=" font-bold text-3xl xl:text-4xl ml-5 "> Everything you <br> need in one <span
+                        class="bg-[#FF7342]  bg-opacity-20 border-solid border-[1px] pl-2 border-orange-500">
+                        plac</span>e</p>
+                </p>
+                <figure class="flex-col p-5 space-y-10">
+                    <article class="bg-[#FFF3EF] shadow-sm rounded w-[327px] h-[70px] xl:w-[574px] flex items-center ">
+                        <span class="mb-7 ml-5 font-bold  w-[8px] w-[8px] text-[42px] text-[#FF7342]">.</span>
+                        <p class="ml-5 xl:text-xl"> Real-time data </p>
+
+                        <div class="xl:ml-[340px] ml-[125px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </div>
+                    </article>
+                    <article class="bg-[#FFF3EF] shadow-sm  rounded w-[327px] h-[70px] xl:w-[574px] flex items-center">
+                        <span class="mb-7 ml-5 font-bold  w-[8px] w-[8px] text-[42px] text-[#FF7342]">.</span>
+                        <p class="ml-5 xl:text-xl"> End-to-end encyption </p>
+                        <div class="xl:ml-[275px] ml-[75px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </div>
+                    </article>
+
+                    <article class="bg-[#FFF3EF] shadow-sm  rounded  w-[327px] h-[70px] xl:w-[574px] flex items-center">
+                        <span class="mb-7 ml-5 font-bold w-[8px] w-[8px] text-[42px] text-[#FF7342]">.</span>
+                        <p class="ml-5 xl:text-xl"> FDIC Insured </p>
+                        <div class="xl:ml-[355px] ml-[140px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </div>
+                    </article>
+
+                    <article class="bg-[#FFF3EF] shadow-sm rounded w-[327px] h-[70px] xl:w-[574px] flex items-center">
+                        <span class="mb-7 ml-5 font-bold  w-[8px] w-[8px] text-[42px] text-[#FF7342]">.</span>
+                        <p class="ml-5 xl:text-xl"> REST API enabled </p>
+                        <div class=" xl:ml-[315px] ml-[110px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </div>
+                    </article>
+
+                    <button
+                        class="w-[199px] h-[64px] bg-[#FF7342] rounded  text-white font-medium hover:bg-orange-400 active:bg-orange-200 focus:ring focus:ring-orange-500 ">
+                        Try it Out Free
+                    </button>
+                </figure>
+            </aside>
+    </main>
+    </section>
+</body>
+
+</html>
